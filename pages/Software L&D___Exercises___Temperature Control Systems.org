@@ -1,0 +1,28 @@
+* A room is equiped with an automated temperature control systems. Build a ROS2 module with following components:
+** A server node
+*** Store the temperature of the room
+*** A service that returns the current temperature
+*** A temperature monitor that publishes the current temperature of the room after every 1 second
+*** A service that tries to increase or decrease the temperature of a room by 1 degree
+But as all systems have errors and temperature can’t rise instantaneously, so we are going to simulate this errors and delays with randomness.
+#+BEGIN_SRC python
+    async service increment_temperature:
+        can_increase_temperature = random(true, false)
+        if !can_increase_temperature:
+            return temperature
+        sleep(random(0.1s, 0.5s))
+        temperature += 1
+        return temperature
+#+END_SRC
+*** This service can be extended with decrement functionality
+*** An action server that can be used to set the temperature of a room:
+**** Action Message:
+temperature_desired: integer
+**** Task: The server should receive a goal message with the desired temperature and then adjust the room’s temperature accordingly with the help of increment/decrement temperature service defined above.
+**** Feedback:
+temperature_current: integer
+** A client node
+*** that listens to the publishing topic and shows the temperature in GUI
+*** that consumes the increment/decrement/set temperature services and exposes a simple GUI interface for interacting as a control systems
+*** Experiment with C++ GUI frameworks
+I have found out that ImGUI is a popular lightweight library for quickly creating GUI interfaces in C++. Try it out. Link: https://github.com/ocornut/imgui
