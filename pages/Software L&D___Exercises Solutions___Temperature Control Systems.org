@@ -1,0 +1,5 @@
+* Solution upto server node:
+<iframe src="https://github.com/Noman5237/IUT-Avijatrik-KT/blob/master/SoftwareLND/exercises-workspace/src/temperature_control_systems/src/temperature_systems_controller.cpp" style="width: 100%; height: 2000px"></iframe>
+*
+* Discussion
+**

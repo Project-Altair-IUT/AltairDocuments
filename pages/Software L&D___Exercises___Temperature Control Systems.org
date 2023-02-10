@@ -26,3 +26,4 @@ temperature_current: integer
 *** that consumes the increment/decrement/set temperature services and exposes a simple GUI interface for interacting as a control systems
 *** Experiment with C++ GUI frameworks
 I have found out that ImGUI is a popular lightweight library for quickly creating GUI interfaces in C++. Try it out. Link: https://github.com/ocornut/imgui
+* Solution Discussion : [[Software L&D/Exercises Solutions/Temperature Control Systems]]
