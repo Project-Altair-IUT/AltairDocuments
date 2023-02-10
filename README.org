@@ -1,0 +1,22 @@
+#+title: Readme
+
+* How to View the Knowledge Base
+** Clone this repository using git clone into your machine
+#+BEGIN_SRC sh
+    git clone https://github.com/Noman5237/IUT-Mars-Rover-KB.git
+#+END_SRC
+** Open on your PC:
+*** Install Logseq desktop on your machine or open by downloading from https://logseq.com/
+** Open on the browser
+*** Open https://demo.logseq.com/
+** Add the graph in logseq
+*** Selct Add a new graph from Menu
+*** Select the cloned folder location of 'IUT-Mars-Rover-KB'
+* How to contribute
+** Fork this repository
+** Clone the fork into your PC
+** Add the graph with logseq
+** Add contents or documentation
+** git add, commit and push
+** Create a pull request in the original repo
+** Wait for your content moderator to merge it to the base repository
