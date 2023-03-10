@@ -1,0 +1,13 @@
+#+file-path: ../assets/cortex_a72_mpcore_trm_100095_0003_06_en_1678467007171_0.pdf
+:PROPERTIES:
+:file: [[../assets/cortex_a72_mpcore_trm_100095_0003_06_en_1678467007171_0.pdf][cortex_a72_mpcore_trm_100095_0003_06_en_1678467007171_0.pdf]]
+:file-path: ../assets/cortex_a72_mpcore_trm_100095_0003_06_en_1678467007171_0.pdf
+:END:
+
+* The Cortex-A72 processor is a high-performance, low-power processor that implements the ARMv8-A architecture. It has one to four cores in a single processor device with L1 and L2 cache subsystems.
+:PROPERTIES:
+:ls-type: annotation
+:hl-page: 14
+:hl-color: yellow
+:id: 640b5fd9-411d-4961-9ac9-0c2afa1767d3
+:END:

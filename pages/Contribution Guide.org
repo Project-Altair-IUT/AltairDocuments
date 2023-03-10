@@ -1,0 +1,10 @@
+* Create a fork
+* Clone the repo
+** [[Github]] desktop
+*** [[../assets/image_1678466276400_0.png]]
+***
+** Terminal
+* Add PDFs
+* [[../assets/cortex_a72_mpcore_trm_100095_0003_06_en_1678467007171_0.pdf][cortex_a72_mpcore_trm_100095_0003_06_en.pdf]]
+* ((640b5fd9-411d-4961-9ac9-0c2afa1767d3))
+* ARM processor is good

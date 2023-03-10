@@ -1,0 +1,36 @@
+{:highlights
+ [{:id #uuid "640b5fd9-411d-4961-9ac9-0c2afa1767d3",
+   :page 14,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 14,
+     :x2 718.4306640625,
+     :y2 150.734375,
+     :width 800,
+     :height 1064.7618952585042},
+    :rects
+    ({:x1 0,
+      :y1 14,
+      :x2 0,
+      :y2 34,
+      :width 800,
+      :height 1064.7618952585042}
+     {:x1 163.796875,
+      :y1 119.609375,
+      :x2 718.4306640625,
+      :y2 134.609375,
+      :width 800,
+      :height 1064.7618952585042}
+     {:x1 163.796875,
+      :y1 135.734375,
+      :x2 697.8893432617188,
+      :y2 150.734375,
+      :width 800,
+      :height 1064.7618952585042}),
+    :page 14},
+   :content
+   {:text
+    "The Cortex-A72 processor is a high-performance, low-power processor that implements the ARMv8-A architecture. It has one to four cores in a single processor device with L1 and L2 cache subsystems."},
+   :properties {:color "yellow"}}], 
+ :extra {:page 15}}

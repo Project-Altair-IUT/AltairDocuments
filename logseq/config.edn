@@ -318,5 +318,5 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :preferred-format :org
- :graph/settings {:orphan-pages? true, :excluded-pages? true, :journal? false}
+ :graph/settings {:orphan-pages? true, :excluded-pages? true, :journal? false, :builtin-pages? false}
  }
