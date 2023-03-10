@@ -1,6 +1,6 @@
-*
+* [[Software L&D/Concepts/DDS]]
 * Overview of abstraction of ROS2 api over DDS
-[[https://design.ros2.org/img/ros_on_dds/api_levels.png][DDS and ROS API Layout]]
+[[https://design.ros2.org/img/ros_on_dds/api_levels.png][DDS and ROS API Layout]]{:height 419, :width 776}
 * DDS message structure in ROS2
 [[https://design.ros2.org/img/ros_on_dds/message_generation.png][Message Generation Diagram]]
 * References:
